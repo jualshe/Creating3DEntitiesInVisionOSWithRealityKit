@@ -24,7 +24,8 @@ struct ShapesView: View {
             ShapesView.roundedBoxEntity,
             ShapesView.sphereEntity,
             ShapesView.coneEntity,
-            ShapesView.cylinderEntity
+            ShapesView.cylinderEntity,
+            ShapesView.boxEntity
         ]
 
         /// The initial position along the x-axis for the first shape.
