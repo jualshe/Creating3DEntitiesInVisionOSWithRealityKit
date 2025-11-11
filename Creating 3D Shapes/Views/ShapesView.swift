@@ -15,10 +15,11 @@ struct ShapesView: View {
             addGeometryShapes(to: content)
         }
     }
-
+   
     /// Add 3D shapes to the `RealityView` content.
     func addGeometryShapes(to content: RealityViewContent) {
         /// The array of all the 3D entities that represent different shapes.
+        
         let allGeometryEntities = [
             ShapesView.boxEntity,
             ShapesView.roundedBoxEntity,
@@ -26,7 +27,7 @@ struct ShapesView: View {
             ShapesView.coneEntity,
             ShapesView.cylinderEntity,
         ]
-
+       
         /// The initial position along the x-axis for the first shape.
         var xOffset: Float = -0.25
 
